@@ -1,0 +1,133 @@
+/* BODY (element) style */
+.page1 {
+    background-image: url(images/Blue_Bottle\,_Kyoto_Style_Ice_Coffee_\(5909775445\).jpeg);
+    border: 0;
+    margin: 0;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.page2 {
+    background-image: url(images/departmentOfCoffee.jpeg);
+    border: 0;
+    margin: 0;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* WRAPPER (class) style, center content, give it a width */
+.wrapper {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* HEADER (element) style, includes logo img */
+header {
+    /* background-color: blue; */
+    height: 120px;
+    /* not min-height, height is more restricting */
+}
+
+.coffeeLogo {
+    /* height: 125px; */
+    height: 100%;
+}
+
+/* NAV (element) style, contains links, give it a short height */
+nav {
+    background-color: rgba(43, 183, 226, 0.375);
+    min-height: 32px;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 4px;
+}
+
+/* compound selector slects the descendents of an element within a parent element */
+nav a {
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+    /* removes underline of a hyperlink */
+    padding-left: 16px;
+    /* adds 16px to the left of each anchor element */
+}
+
+/* MAIN (elememt) style, contains text for home page */
+main {
+    /* background-color: rgb(255, 140, 0); */
+    min-height: 400px;
+    text-align: center;
+    padding: 32px 128px;
+    /* top and bottom, left and right */
+}
+
+/* compound selector slects the descendents of an element within a parent element */
+main h1 {
+    font-size: 85px;
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px 2px black;
+    /* x, y, blur, color */
+}
+
+
+main h2 {
+    font-size: 50px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px, 1px, 2px, chocolate;
+}
+
+main p {
+    font-size: 20px;
+    color: rgb(87, 172, 225);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px black;
+}
+
+li {
+    font-size: 20px;
+    color: rgb(87, 172, 225);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px black;
+    list-style-type: none;
+    text-align: center;
+}
+
+/* Portledge School Hyperlink style */
+main a {
+    color: whitesmoke;
+}
+
+/* MAP (class) style */
+.map {
+    /* background-color: crimson; */
+    min-height: 200px;
+    text-align: center;
+
+}
+
+.drinkingImg {
+    height: 200px;
+}
+
+/* FOOTER (element) style */
+footer {
+    background-color: rgba(43, 183, 226, 0.375);
+    min-height: 64px;
+}
+
+footer p {
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-top: 20px;
+    text-transform: lowercase;
+}
